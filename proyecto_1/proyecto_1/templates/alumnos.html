@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewportpython .\manage.py runserver" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos</title>
+
+    <h1>Listado de alumnos del curso de: {{ curso }}</h1>
+    {% for alumno in alumnos %}
+       <p> {{ alumno }} </p>
+    {% endfor %}
+
+</head>
+<body>
+    
+</body>
+</html>
